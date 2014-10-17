@@ -1,0 +1,48 @@
+/* Your Website Styles */
+title {
+	color: white;
+	font-size: 75px;
+	color: #4CFF99;
+	font-family: 'Garamond';
+	text-align:; center;
+	display: block;
+
+}
+
+h2 {
+	color: white;
+	font-family: 'Garamond'
+	text-align: left;
+	border-radius: 40px;
+	padding: 10px 10px;
+}
+
+
+h3 {
+	color: white;
+	text-align: left;
+	border-radius: 40px;
+	padding: 10px 10px;
+}
+body {
+	color: white;
+	background: #2A7E76;
+	padding: 20px;
+	margin: 20px;
+	text-align: left;
+}
+
+img {
+	position-fixed: center;
+}
+
+.mint-background {
+	background-color: #B0E3AB;
+	border-radius: 40px;
+	padding: 10px 10px;
+}
+
+#cursive {
+	font-family: serif;
+	color: orange;
+}
