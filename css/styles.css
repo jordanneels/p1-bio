@@ -10,21 +10,21 @@ h1 {
 
 /* Major, Minor */
 h2 {
-	font-family: 'Sacramento', cursive;
+	font-family: 'Cinzel Decorative', cursive;
 	color: black;
-	font-size: 30px;
+	font-size: 20px;
 	margin-bottom: -.75em;
 	margin-left: -.75em;
 }
 
 /* Paragraph headings */
 h3 {
-	font-family: 'Sacramento', cursive;
+	font-family: 'Cinzel Decorative', cursive;
 	color: black;
-	font-size: 30px;
+	font-size: 20px;
 	text-align: left;
 	margin-top: -.50em;
-	margin-left: -.75em;
+	margin-left: -1.25em;
 	margin-bottom: -1em;
 	border-radius: 10px;
 	padding: 10px 10px;
@@ -32,16 +32,16 @@ h3 {
 
 /* Pages */
 h4 {
-	font-family: 'Sacramento', cursive;
+	font-family: 'Cinzel Decorative', cursive;
 	color: #9CDEBA;
-	font-size: 25px;
-	text-align: left;
+	font-size: 15px;
+	text-align: right;
 }
 
 body {
 	font-family: 'Calibri';
 	color: white;
-	background-color: #2B825C;
+	background-color: #9CDEBA;
 	padding: 20px;
 	margin: 10px;
 	text-align: left;
@@ -65,11 +65,6 @@ a:link {
     color: black;
     text-decoration: none;
     margin-left: -10px;
-}
-
-.color {
-	background-color: #9CDEBA;
-	border-radius: 10px;
 }
 
 .footer {
