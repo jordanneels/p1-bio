@@ -28,7 +28,7 @@ h2 {
 }
 
 .major_minor {
-	font-size: 25px;
+	font-size: 23px;
 	font-family: 'Cinzel Decorative', cursive;
 	color: #1D5846;
 	margin-bottom: -1.5em;
@@ -82,8 +82,8 @@ img {
     color: black;
     text-align: left;
     text-decoration: none;
-    margin-top: 20px;
-    margin-left: -5px;
+    margin-left: -35px;
+    list-style: none;
  }
 
 .footer {
