@@ -78,6 +78,11 @@ img {
 	margin-left: 20px;
 }
 
+a {
+	text-decoration: none;
+	color: #1D5846;
+}
+
 .links_bottom {
     color: black;
     text-align: left;
