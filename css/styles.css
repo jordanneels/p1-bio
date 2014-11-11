@@ -1,72 +1,80 @@
-/* Your Website Styles */
-/* Name */
-div {
-	transform: 1000px;
-}
-
-h1 {
-	font-family: 'Sacramento', cursive;
-	font-size: 50px;
-	color: black;
-	text-align: center;
-	margin: 2px 0px -12px 2px;
-}
-
-.subtitle {
-	color: black;
-	text-align: center;
-}
-
-/* Major, Minor */
-h2 {
-	font-family: 'Cinzel Decorative', cursive;
-	color: black;
-	font-size: 20px;
-	margin-top: 2.5em;
-	margin-bottom: -.75em;
-	margin-left: -.75em;
-}
-
-.major_minor {
-	font-size: 23px;
-	font-family: 'Cinzel Decorative', cursive;
-	color: #1D5846;
-	margin-bottom: -1.5em;
-}
-
-/* Paragraph headings */
-h3 {
-	font-family: 'Cinzel Decorative', cursive;
-	color: black;
-	font-size: 20px;
-	text-align: left;
-	margin-top: -1em;
-	margin-left: -1.25em;
-	margin-bottom: -1em;
-	border-radius: 10px;
-	padding: 10px 10px;
-}
-
-/* Pages */
-.links_top {
-	color: black;
-	font-family: 'Cinzel Decorative', cursive;
-	font-size: 15px;
-	text-align: right;
+/* Objective */
+a {
 	text-decoration: none;
 	list-style: none;
-	margin-bottom: 0em;
+	color: #363636;
+	text-align: right;
+}
+
+a:hover, {
+	color: #000;
+}
+
+.banner {
+	background-color: #BB4D3E;
+	margin-bottom: 30px;
 }
 
 body {
 	font-family: 'Calibri';
-	color: #1D5846;
-	background-color: #9CDEBA;
-	padding: 20px;
-	margin: 10px;
-	text-align: left;
+	color: #363636;
+	background-color: #132139;
 	font-size: 16px;
+	margin-left: 20px;
 }
+
+.contact {
+	list-style: none;
+	margin-left: 0px;
+}
+
+.container {
+	background-color: #F2F0D9;
+}
+
+.education {
+	margin-left: 5px;
+}
+
+.footer {
+	text-align: center;
+	color: black;
+}
+
+h1 {
+	color: #363636;	
+	font-family: 'Cinzel', serif; font-weight: 700;
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-family: 'Cinzel', serif; font-weight: 400;
+	font-size: 26px;
+	color: #9D3834;
+	margin-top: -10px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	color: #2B8261;
+	font-family: 'Droid Serif', serif;
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+h4 {
+	font-family: 'Cinzel Decorative', serif; font-weight: 400;
+	color: black;
+	font-size: 16px;
+	margin-top: 0em;
+	margin-bottom: -.75em;
+	margin-left: 10px;
+	text-transform: uppercase;
+}
+
 
 img {
 	padding: 1px;
@@ -74,25 +82,70 @@ img {
 	border-radius: 40px;
 	width: 130px;
 	height: 160px;
-	margin-top: 1em;
-	margin-bottom: 2em;
+	margin-top: -1em;
+	margin-bottom: -.5em;
+	margin-left: 15px;
+}
+
+.links_top {
+	color: black;
+	font-family: 'Cinzel Decorative', serif;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+	margin-bottom: -5em;
+
+}
+
+.major_minor {
+	font-size: 23px;
+	font-family: 'Cinzel Decorative', serif; font-weight: 400;
+	color: #363636;
+	margin-bottom: -1.5em;
+	margin-left: 10px;
+}
+
+
+@media (max-width: 1680;) {
+	body {
+		font-size: 16px;
+	}
+	.container {
+		max-width: 70%;
+	}
+}
+
+.nav_top {
+	color: #132139;
+	text-align: right;
+
+}
+
+p {
+	color: #132139;
 	margin-left: 20px;
 }
 
-a {
-	text-decoration: none;
-	color: #1D5846;
+.panel {
+	color: #132139;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-left: 20px;
 }
 
-.links_bottom {
-    color: black;
-    text-align: left;
-    text-decoration: none;
-    margin-left: -35px;
-    list-style: none;
- }
-
-.footer {
+.index {
+	color: #BB4D3E;
+}
+.subtitle {
+	color: #fff;
 	text-align: center;
-	color: black;
+	font-size: 14px;
+}
+
+ul li {
+	color: #363636;
+	text-decoration: none;
+	list-style: none;
+	margin-left: -15px;
 }
