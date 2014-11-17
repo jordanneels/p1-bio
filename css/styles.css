@@ -4,6 +4,9 @@ a {
 	list-style: none;
 	color: #363636;
 	text-align: right;
+	font-family: 'Droid Serif', serif;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 a:hover, {
@@ -21,7 +24,7 @@ body {
 	background-color: #132139;
 	font-size: 16px;
 	margin-left: 20px;
-	background: url("../img/footer_lodyas.png")
+	background: url("../img/footer_lodyas.png");
 }
 
 .contact {
@@ -44,17 +47,19 @@ body {
 
 h1 {
 	color: #363636;	
-	font-family: 'Cinzel', serif; font-weight: 700;
+	font-family: 'Cinzel Decorative', serif; 
+	font-weight: 700;
 	font-size: 36px;
 	text-align: center;
 	margin-bottom: 0px;
 }
 
 h2 {
-	font-family: 'Cinzel', serif; font-weight: 400;
+	font-family: 'Cinzel Decorative', serif; 
+	font-weight: 400;
 	font-size: 26px;
 	color: #24456B;
-	margin-top: -10px;
+	margin-top: 15px;
 	margin-left: 5px;
 	margin-bottom: 10px;
 }
@@ -75,7 +80,6 @@ h4 {
 	margin-left: 10px;
 	text-transform: uppercase;
 }
-
 
 img {
 	padding: 1px;
@@ -101,12 +105,11 @@ img {
 
 .major_minor {
 	font-size: 23px;
-	font-family: 'Cinzel Decorative', serif; font-weight: 400;
+	font-family: 'Cinzel Decorative', serif; 
+	font-weight: 400;
 	color: #363636;
-	margin-bottom: -1.5em;
 	margin-left: 10px;
 }
-
 
 @media (max-width: 1680;) {
 	body {
@@ -120,7 +123,6 @@ img {
 .nav_top {
 	color: #132139;
 	text-align: right;
-
 }
 
 p {
@@ -139,6 +141,7 @@ p {
 	color: #BB4D3E;
 }
 .subtitle {
+	font-family: 'Droid Serif', serif;
 	color: #fff;
 	text-align: center;
 	font-size: 14px;
