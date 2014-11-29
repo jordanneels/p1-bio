@@ -4,19 +4,19 @@ a {
 	list-style: none;
 	color: #363636;
 	text-align: right;
-	font-family: 'Droid Serif', serif;
+	font-family: 'Calibri';
 	text-transform: uppercase;
-	font-weight: bold;
 }
 
 a:hover, {
 	color: #000;
 }
 
-.banner {
+/* .banner {
 	background-color: #BB4D3E;
 	margin-bottom: 30px;
 }
+*/
 
 body {
 	font-family: 'Calibri';
@@ -24,7 +24,7 @@ body {
 	background-color: #132139;
 	font-size: 16px;
 	margin-left: 20px;
-	background: url("../img/footer_lodyas.png");
+	background: url("../img/grey_wash_wall.png");
 }
 
 .contact {
@@ -33,7 +33,7 @@ body {
 }
 
 .container {
-	background-color: #F2F0D9;
+	background-color: #F6EEE4;
 }
 
 .education {
@@ -46,28 +46,29 @@ body {
 }
 
 h1 {
-	color: #363636;	
+	color: #8C201F;	
 	font-family: 'Cinzel Decorative', serif; 
 	font-weight: 700;
-	font-size: 36px;
+	font-size: 40px;
 	text-align: center;
 	margin-bottom: 0px;
 }
 
 h2 {
 	font-family: 'Cinzel Decorative', serif; 
-	font-weight: 400;
-	font-size: 26px;
-	color: #24456B;
+	font-weight: 100px;
+	font-size: 25px;
+	color: #C4634F;
 	margin-top: 15px;
 	margin-left: 5px;
 	margin-bottom: 10px;
 }
 
 h3 {
-	color: #2B8261;
+	color: #767676;
 	font-family: 'Droid Serif', serif;
 	font-size: 16px;
+	font-weight: 300px;
 	margin-left: 20px;
 }
 
@@ -100,13 +101,12 @@ img {
 	text-decoration: none;
 	list-style: none;
 	margin-bottom: -5em;
-
 }
 
 .major_minor {
 	font-size: 23px;
 	font-family: 'Cinzel Decorative', serif; 
-	font-weight: 400;
+	font-weight: 400px;
 	color: #363636;
 	margin-left: 10px;
 }
@@ -122,6 +122,7 @@ img {
 
 .nav_top {
 	color: #132139;
+	margin-bottom: -25px;
 	text-align: right;
 }
 
